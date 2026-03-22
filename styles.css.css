@@ -1,0 +1,22 @@
+.page-products h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+
+.page-category-tvs h1 {
+
+}
+
+.page-category-acessories h1 {
+
+}
