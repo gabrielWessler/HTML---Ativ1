@@ -7,16 +7,106 @@ p::first-letter{
     text-transform: uppercase;
 }
 
+.page-category-tvs {
+    background-color: rgb(161, 48, 48);
+}
+
+.page-category-acessories {
+    background-color: rgb(65, 144, 170);
+}
+
 a:hover{
     text-decoration: none;
 }
-
-
-
-.page-category-tvs h1 {
+/*.page-category-tvs h1 {
 
 }
 
 .page-category-acessories h1 {
 
+}*/
+
+/* 2 - Títulos principais */
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* 5 - Todos os títulos centralizados */
+h2, h3, h4, h5 {
+    text-align: center;
+}
+
+/* 3 - Primeira letra dos parágrafos */
+p::first-letter {
+    text-transform: uppercase;
+}
+
+/* 4 - Hover nos links */
+a:hover {
+    text-decoration: none;
+}
+
+/* Estilo padrão dos links */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 7 - Remover bullets da lista */
+#primary-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Melhorar espaçamento dos itens */
+#primary-list li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* 8 - Centralizar imagens */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* pode ajustar */
+}
+
+/* Exercicios de tabela do dew 6*/
+
+#primary-list {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#primary-list td, #primary-list th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input, select {
+    margin: 5px;
+    padding: 5px;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer small {
+    color: gray;
 }
